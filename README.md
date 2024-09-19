@@ -8,6 +8,7 @@ This project is the frontend for the CallMate application. It is built using Rea
 - [Getting Started](#getting-started)
 - [Build](#build)
 - [License](#license)
+- [Contact](#contact)
 
 ## Demo
 You can access the live demo of the application here: [CallMate Frontend](https://call-mate.vercel.app/)
