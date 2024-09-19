@@ -17,6 +17,7 @@ const customStyles = {
     border: "1px solid #ba88f8",
     borderRadius: "8px",
     backgroundColor: "#e9d8ff",
+    width: "86%"
   },
 };
 
