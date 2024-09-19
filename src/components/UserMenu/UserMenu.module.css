@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.text {
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+@media (max-width: 719.9px) {
+  .text {
+    display: none;
+  }
+}
+
+@media (min-width: 720px) {
+  .text {
+    font-size: 18px;
+  }
+}
+
+.accent {
+  color: #ba88f8;
+}
+
+.btn {
+  color: #ffffff;
+  font-weight: 700;
+
+  background-color: #fb1500;
+
+  align-self: center;
+
+
+  padding: 6px 8px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+  transform: scale(1.1);
+}
