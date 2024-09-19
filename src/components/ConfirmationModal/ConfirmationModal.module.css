@@ -1,0 +1,43 @@
+.text {
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+
+  margin-bottom: 16px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  font-size: 18px;
+
+  padding: 6px 8px;
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
+}
+
+.btn-delete {
+  color: #ffffff;
+
+  background-color: #fb1500;
+
+  border: 1px solid #fb1500;
+}
+
+.btn-cancel {
+  color: #ba88f8;
+
+  background-color: #ffffff;
+
+  border: 1px solid #ba88f8;
+}
+
+.btn:hover,
+.btn:focus {
+  transform: scale(1.2);
+}
